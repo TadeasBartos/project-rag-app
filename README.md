@@ -91,3 +91,20 @@ Open http://localhost:5000
 4. Add UI button in `web_app/templates/index.html`
 5. Build: `pipenv run python -m rag.build_all_modules --modules module_x`
 
+## Demo
+
+### civilGPT
+
+Demo of civilGPT - answering a question about creating a polyline.
+![civilGPT Demo 1](_demo/civilGPT_001.jpg)
+
+Context references stored in plain-text format before converted into vector database.
+![civilGPT Demo 2](_demo/civilGPT_002.jpg)
+
+Another demo — this one focuses on `c3d-problems.md` instead of only `c3d-commands.md`.
+![civilGPT Demo 3](_demo/civilGPT_003.jpg)
+
+### bimGPT
+
+bimGPT demo — responding to a simple query.
+![bimGPT Demo 1](_demo/bimGPT_001.jpg)
