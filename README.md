@@ -2,6 +2,8 @@
 
 A modular RAG (Retrieval-Augmented Generation) chatbot that answers questions based on custom knowledge bases.
 
+The idea is to run everything locally, so all data stays securely on your computer and never leaves to the internet. The system provides answers — even at this early concept stage — strictly based on the supplied context only. This makes it possible to work (and chat) with private company data while maintaining privacy and producing reliable results.
+
 ## How It Works
 
 1. **Source of Truth**: Markdown files stored in `modules/{module}/files/`
