@@ -98,7 +98,7 @@ Open http://localhost:5000
 Demo of civilGPT - answering a question about creating a polyline.
 ![civilGPT Demo 1](_demo/civilGPT_001.jpg)
 
-Context references stored in plain-text format before converted into vector database.
+Context references stored in plain-text format before being converted into vector database.
 ![civilGPT Demo 2](_demo/civilGPT_002.jpg)
 
 Another demo — this one focuses on `c3d-problems.md` instead of only `c3d-commands.md`.
