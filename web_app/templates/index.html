@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>civilGPT - Civil 3D Knowledge Base</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Module Icons Sidebar -->
+        <div class="modules-sidebar">
+            <div class="module-icon active" data-module="module_b" data-module-name="civilGPT" data-theme-color="rgba(103, 8, 76)" title="civilGPT">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+                <span class="module-label">civilGPT</span>
+            </div>
+            <div class="module-icon" data-module="module_c" data-module-name="bimGPT" data-theme-color="rgba(247, 154, 25)" title="bimGPT">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+                <span class="module-label">bimGPT</span>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z"/>
+                    <polyline points="13 2 13 9 20 9"/>
+                </svg>
+                <h3>Knowledge Base</h3>
+            </div>
+            <div id="filesList" class="files-list">
+                <div class="loading-files">Loading files...</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-content">
+                <img src="{{ url_for('static', filename='rag-creative-icon-design-vector.jpg') }}" alt="CC Logo" class="header-logo">
+                <div class="header-text">
+                    <h1 id="headerTitle">civilGPT</h1>
+                    <p class="subtitle" id="headerSubtitle">Civil 3D Command Knowledge Base</p>
+                </div>
+            </div>
+            <button id="clearBtn" class="clear-btn" title="Clear conversation">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/>
+                </svg>
+                Clear
+            </button>
+        </div>
+
+        <!-- Status indicator -->
+        <div id="statusIndicator" class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">Checking system status...</span>
+        </div>
+
+        <!-- Chat messages container -->
+        <div id="chatContainer" class="chat-container">
+            <div class="welcome-message">
+                <img src="{{ url_for('static', filename='rag-creative-icon-design-vector.jpg') }}" alt="CC Logo" class="welcome-logo">
+                <h2 id="welcomeTitle">Welcome to civilGPT</h2>
+                <p id="welcomeText">Start a conversation by asking a question about Civil 3D commands.</p>
+            </div>
+        </div>
+
+        <!-- Input area -->
+        <div class="input-area">
+            <div class="input-wrapper">
+                <textarea 
+                    id="messageInput" 
+                    placeholder="Type your question here..." 
+                    rows="1"
+                    disabled
+                ></textarea>
+                <button id="sendBtn" class="send-btn" disabled>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="input-hint">
+                Press Enter to send, Shift+Enter for new line
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

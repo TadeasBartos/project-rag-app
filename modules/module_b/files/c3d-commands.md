@@ -1,0 +1,1110 @@
+# AutoCAD keyboard shortcuts
+
+**Source:** https://www.autodesk.com/shortcuts/autocad
+
+## Content
+
+
+### Toggle General Features
+Ctrl+d
+
+Toggle coordinate display
+
+Ctrl+g
+
+Toggle Grid
+
+Ctrl+e
+
+Cycle isometric planes
+
+Ctrl+f
+
+Toggle running object snaps
+
+Ctrl+h
+
+Toggle Pick Style
+
+Ctrl+Shift+h
+
+Toggle Hide pallets
+
+Ctrl+i
+
+Toggle Coords
+
+Ctrl+Shift+i
+
+### Toggle Drawing Modes
+
+F1
+
+Display Help
+
+F2
+
+Toggle text screen
+
+F3
+
+Toggle object snap mode
+
+F4
+
+Toggle 3DOsnap
+
+F5
+
+Toggle Isoplane
+
+F6
+
+Toggle Dynamic UCS
+
+F7
+
+Toggle grid mode
+
+F8
+
+Toggle ortho mode
+
+F9
+
+Toggle snap mode
+
+F10
+
+Toggle polar mode
+
+F11
+
+Toggle object snap tracking
+
+F12
+
+### Manage Screen
+
+Ctrl+0 (Zero)
+
+Clean Screen
+
+Ctrl+1
+
+Property Palette
+
+Ctrl+2
+
+Design Center Palette
+
+Ctrl+3
+
+Toggle Palette
+
+Ctrl+4
+
+Sheet Set Palette
+
+Ctrl+6
+
+DBConnect Manager
+
+Ctrl+7
+
+Markup Set Manager Palette
+
+Ctrl+8
+
+Quick Calc
+
+Ctrl+9
+
+Command Line
+
+### Manage Workflows
+
+Ctrl+c
+
+Copy object
+
+Ctrl+x
+
+Cut object
+
+Ctrl+v
+
+Paste object
+
+Ctrl+Shift+c
+
+Copy to clipboard with base point
+
+Ctrl+Shift+v
+
+Paste data as block
+
+Ctrl+z
+
+Undo last action
+
+Ctrl+y
+
+Redo last action
+
+Ctrl+[
+
+Cancel current command (or ctrl+\)
+
+ESC
+
+Cancel current command
+
+### Manage Drawings
+
+Ctrl+n
+
+New Drawing
+
+Ctrl+s
+
+Save drawing
+
+Ctrl+o
+
+Open drawing
+
+Ctrl+p
+
+Plot dialog box
+
+Ctrl+Tab
+
+Switch to next
+
+Ctrl+Shift+Tab
+
+Switch to previous drawing
+
+Ctrl+Page Up
+
+Switch to previous tab in current drawing
+
+Ctrl+Page Down
+
+Switch to next tab in current drawing
+
+Ctrl+q
+
+Exit
+
+Ctrl+a
+
+Select all objects
+
+### Hot keys
+
+ca:A
+c:ARC
+d:Creates an arc.
+
+ca: AA
+c: AREA
+d: Calculates the area and perimeter of objects or of defined areas.
+
+ca: ADC
+c: ADCENTER
+d: Manages and inserts content such as blocks, xrefs, and hatch patterns.
+
+ca: AL
+c: ALIGN
+d: Aligns objects with other objects in 2D and 3D.
+
+ca: AP
+c: APPLOAD
+d: Load Application.
+
+ca: AR
+c: ARRAY
+d: Creates multiple copies of objects in a pattern.
+
+ca: ARR
+c: ACTRECORD
+d: Starts the Action Recorder.
+
+ca: ARM
+c: ACTUSERMESSAGE
+d: Inserts a user message into an action macro.
+
+ca: ARU
+c: ACTUSERINPUT
+d: Pauses for user input in an action macro.
+
+ca: ARS
+c: ACTSTOP
+d: Stops the Action Recorder and allows saving actions to a macro file.
+
+ca: ATI
+c: ATTIPEDIT
+d: Changes the textual content of an attribute within a block.
+
+ca: ATT
+c: ATTDEF
+d: Redefines a block and updates associated attributes.
+
+ca: ATE
+c: ATTEDIT
+d: Changes attribute information in a block.
+
+ca: B
+c: BLOCK
+d: Creates a block definition from selected objects.
+
+ca: BC
+c: BCLOSE
+d: Closes the Block Editor.
+
+ca: BE
+c: BEDIT
+d: Opens the block definition in the Block Editor.
+
+ca: BH
+c: HATCH
+d: Fills an enclosed area with a hatch pattern, solid fill, or gradient.
+
+ca: BO
+c: BOUNDARY
+d: Creates a region or a polyline from an enclosed area.
+
+ca: BR
+c: BREAK
+d: Breaks the selected object between two points.
+
+ca: BS
+c: BSAVE
+d: Saves the current block definition.
+
+ca: BVS
+c: BVSTATE
+d: Creates, sets, or deletes a visibility state in a dynamic block.
+
+ca: C
+c: CIRCLE
+d: Creates a circle.
+
+ca: CAM
+c: CAMERA
+d: Sets a camera and target for a 3D perspective view.
+
+ca: CBAR
+c: CONSTRAINTBAR
+d: Displays available geometric constraints on an object.
+
+ca: CH
+c: PROPERTIES
+d: Controls properties of existing objects.
+
+ca: CHA
+c: CHAMFER
+d: Bevels the edges of objects.
+
+ca: CHK
+c: CHECKSTANDARDS
+d: Checks the drawing for standards violations.
+
+ca: CLI
+c: COMMANDLINE
+d: Displays the Command Line window.
+
+ca: COL
+c: COLOR
+d: Sets the color for new objects.
+
+ca: CO
+c: COPY
+d: Copies objects a specified distance in a given direction.
+
+ca: CT
+c: CTABLESTYLE
+d: Sets the name of the current table style.
+
+ca: CUBE
+c: NAVVCUBE
+d: Controls visibility and properties of the ViewCube tool.
+
+ca: CYL
+c: CYLINDER
+d: Creates a 3D solid cylinder.
+
+ca: D
+c: DIMSTYLE
+d: Creates and modifies dimension styles.
+
+ca: DAN
+c: DIMANGULAR
+d: Creates an angular dimension.
+
+ca: DAR
+c: DIMARC
+d: Creates an arc length dimension.
+
+ca: DBA
+c: DIMBASELINE
+d: Creates a dimension from the baseline of a previous dimension.
+
+ca: DBC
+c: DBCONNECT
+d: Interface to external database tables.
+
+ca: DCE
+c: DIMCENTER
+d: Creates center marks/centerlines of circles and arcs.
+
+ca: DCO
+c: DIMCONTINUE
+d: Creates a continuation dimension from an existing dimension.
+
+ca: DCON
+c: DIMCONSTRAINT
+d: Applies dimensional constraints.
+
+ca: DDA
+c: DIMDISASSOCIATE
+d: Removes associativity from selected dimensions.
+
+ca: DDI
+c: DIMDIAMETER
+d: Creates a diameter dimension.
+
+ca: DED
+c: DIMEDIT
+d: Edits dimension text and extension lines.
+
+ca: DI
+c: DIST
+d: Measures distance and angle between two points.
+
+ca: DIV
+c: DIVIDE
+d: Creates evenly spaced point objects or blocks on an object.
+
+ca: DJL
+c: DIMJOGLINE
+d: Adds/removes a jog line in a dimension.
+
+ca: DJO
+c: DIMJOGGED
+d: Creates jogged dimensions.
+
+ca: DL
+c: DATALINK
+d: Opens the Data Link dialog.
+
+ca: DLU
+c: DATALINKUPDATE
+d: Updates data in an external data link.
+
+ca: DO
+c: DONUT
+d: Creates a filled circle or wide ring.
+
+ca: DOR
+c: DIMORDINATE
+d: Creates ordinate dimensions.
+
+ca: DOV
+c: DIMOVERRIDE
+d: Controls overrides of system variables used in dimensions.
+
+ca: DR
+c: DRAWORDER
+d: Changes draw order of objects.
+
+ca: DRA
+c: DIMRADIUS
+d: Creates a radius dimension.
+
+ca: DRE
+c: DIMREASSOCIATE
+d: Reassociates dimensions to objects.
+
+ca: DRM
+c: DRAWINGRECOVERY
+d: Displays recoverable drawing files.
+
+ca: DS
+c: DSETTINGS
+d: Sets grid, snap, polar tracking, object snaps, etc.
+
+ca: DT
+c: TEXT
+d: Creates single-line text.
+
+ca: DV
+c: DVIEW
+d: Defines parallel or perspective views.
+
+ca: DX
+c: DATAEXTRACTION
+d: Extracts and exports drawing data.
+
+ca: E
+c: ERASE
+d: Removes objects.
+
+ca: ED
+c: DDEDIT
+d: Edits text, dimension text, and attributes.
+
+ca: EL
+c: ELLIPSE
+d: Creates an ellipse or elliptical arc.
+
+ca: EPDF
+c: EXPORTPDF
+d: Exports drawing to PDF.
+
+ca: ER
+c: EXTERNALREFERENCES
+d: Opens External References palette.
+
+ca: EX
+c: EXTEND
+d: Extends objects to meet other objects.
+
+ca: EXIT
+c: QUIT
+d: Exits the program.
+
+ca: EXP
+c: EXPORT
+d: Exports objects to a different file format.
+
+ca: EXT
+c: EXTRUDE
+d: Extends 2D objects into 3D space.
+
+ca: F
+c: FILLET
+d: Rounds edges of objects.
+
+ca: FI
+c: FILTER
+d: Creates selection filters.
+
+ca: FS
+c: FSMODE
+d: Creates selection of all touching objects.
+
+ca: FSHOT
+c: FLATSHOT
+d: Creates a 2D view of 3D objects.
+
+ca: G
+c: GROUP
+d: Creates and manages groups of objects.
+
+ca: GCON
+c: GEOCONSTRAINT
+d: Applies geometric constraints.
+
+ca: GD
+c: GRADIENT
+d: Fills an area with a gradient.
+
+ca: GEO
+c: GEOGRAPHICLOCATION
+d: Specifies geographic location.
+
+ca: H
+c: HATCH
+d: Fills an enclosed area with a pattern or fill.
+
+ca: HE
+c: HATCHEDIT
+d: Modifies a hatch.
+
+ca: HI
+c: HIDE
+d: Hides lines in a 3D wireframe.
+
+ca: I
+c: INSERT
+d: Inserts a block.
+
+ca: IAD
+c: IMAGEADJUST
+d: Adjusts image brightness, contrast, fade.
+
+ca: IAT
+c: IMAGEATTACH
+d: Attaches an image file.
+
+ca: ICL
+c: IMAGECLIP
+d: Crops a displayed image.
+
+ca: ID
+c: ID
+d: Displays UCS coordinates at a point.
+
+ca: IM
+c: IMAGE
+d: Displays External References palette.
+
+ca: IMP
+c: IMPORT
+d: Imports files into the drawing.
+
+ca: IN
+c: INTERSECT
+d: Creates intersection of selected objects.
+
+ca: INF
+c: INTERFERE
+d: Creates a solid from interference between objects.
+
+ca: IO
+c: INSERTOBJ
+d: Inserts linked/embedded objects.
+
+ca: J
+c: JOIN
+d: Joins similar objects into one.
+
+ca: JOG
+c: DIMJOGGED
+d: Creates jogged dimensions.
+
+ca: L
+c: LINE
+d: Creates straight line segments.
+
+ca: LA
+c: LAYER
+d: Manages layers.
+
+ca: LAS
+c: LAYERSTATE
+d: Saves and restores layer states.
+
+ca: LE
+c: QLEADER
+d: Creates a leader with annotation.
+
+ca: LEN
+c: LENGTHEN
+d: Changes length of objects.
+
+ca: LESS
+c: MESHSMOOTHLESS
+d: Decreases mesh smoothness.
+
+ca: LI
+c: LIST
+d: Lists object properties.
+
+ca: LO
+c: LAYOUT
+d: Creates/modifies layout tabs.
+
+ca: LT
+c: LINETYPE
+d: Loads and sets linetypes.
+
+ca: LTS
+c: LTSCALE
+d: Changes global linetype scale.
+
+ca: LW
+c: LWEIGHT
+d: Sets lineweight.
+
+ca: M
+c: MOVE
+d: Moves objects.
+
+ca: MA
+c: MATCHPROP
+d: Matches properties from one object to another.
+
+ca: MAT
+c: MATERIALS
+d: Shows Materials window.
+
+ca: ME
+c: MEASURE
+d: Creates points at measured intervals.
+
+ca: MEA
+c: MEASUREGEOM
+d: Measures geometry.
+
+ca: MI
+c: MIRROR
+d: Creates mirrored copies.
+
+ca: ML
+c: MLINE
+d: Creates multiple parallel lines.
+
+ca: MLA
+c: MLEADERALIGN
+d: Aligns multileaders.
+
+ca: MLC
+c: MLEADERCOLLECT
+d: Collects multileaders into rows/columns.
+
+ca: MLD
+c: MLEADER
+d: Creates a multileader.
+
+ca: MLE
+c: MLEADEREDIT
+d: Edits multileaders.
+
+ca: MLS
+c: MLEADERSTYLE
+d: Modifies multileader styles.
+
+ca: MO
+c: PROPERTIES
+d: Controls object properties.
+
+ca: MORE
+c: MESHSMOOTHMORE
+d: Increases mesh smoothness.
+
+ca: MS
+c: MSPACE
+d: Switches to model space.
+
+ca: MSM
+c: MARKUP
+d: Opens Markup Set Manager.
+
+ca: MT
+c: MTEXT
+d: Creates multiline text.
+
+ca: MV
+c: MVIEW
+d: Creates layout viewports.
+
+ca: NORTH
+c: GEOGRAPHICLOCATION
+d: Specifies geographic location.
+
+ca: NSHOT
+c: NEWSHOT
+d: Creates named view with motion.
+
+ca: NVIEW
+c: NEWVIEW
+d: Creates named view.
+
+ca: O
+c: OFFSET
+d: Creates parallel curves.
+
+ca: OP
+c: OPTIONS
+d: Edits program settings.
+
+ca: ORBIT
+c: 3DORBIT
+d: Rotates the 3D view.
+
+ca: OS
+c: OSNAP
+d: Sets object snap modes.
+
+ca: P
+c: PAN
+d: Moves the view.
+
+ca: PA
+c: PASTESPEC
+d: Pastes with formatting options.
+
+ca: PAR
+c: PARAMETERS
+d: Controls associative parameters.
+
+ca: PARAM
+c: BPARAMETER
+d: Adds a parameter to a dynamic block.
+
+ca: PATCH
+c: SURFPATCH
+d: Creates a surface patch over an edge loop.
+
+ca: PC
+c: POINTCLOUD
+d: Manages point cloud files.
+
+ca: PCATTACH
+c: POINTCLOUDATTACH
+d: Attaches point cloud files.
+
+ca: PCINDEX
+c: POINTCLOUDINDEX
+d: Creates indexed point cloud files.
+
+ca: PE
+c: PEDIT
+d: Edits polylines.
+
+ca: PL
+c: PLINE
+d: Creates a polyline.
+
+ca: PO
+c: POINT
+d: Creates a point.
+
+ca: POFF
+c: HIDEPALETTES
+d: Hides palettes.
+
+ca: POL
+c: POLYGON
+d: Creates an equilateral closed polyline.
+
+ca: PON
+c: SHOWPALETTES
+d: Shows hidden palettes.
+
+ca: PR
+c: PROPERTIES
+d: Displays Properties palette.
+
+ca: PRE
+c: PREVIEW
+d: Previews the plot.
+
+ca: PRINT
+c: PLOT
+d: Plots a drawing.
+
+ca: PS
+c: PSPACE
+d: Switches to paper space.
+
+ca: PSOLID
+c: POLYSOLID
+d: Creates 3D wall-like solids.
+
+ca: PU
+c: PURGE
+d: Removes unused items.
+
+ca: PYR
+c: PYRAMID
+d: Creates a 3D pyramid.
+
+ca: QC
+c: QUICKCALC
+d: Opens QuickCalc.
+
+ca: QCUI
+c: QUICKCUI
+d: Opens a collapsed CUI editor.
+
+ca: QP
+c: QUICKPROPERTIES
+d: Displays quick properties.
+
+ca: QSAVE
+c: QSAVE
+d: Saves current drawing.
+
+ca: QVD
+c: QVDRAWING
+d: Displays open drawings in previews.
+
+ca: QVDC
+c: QVDRAWINGCLOSE
+d: Closes preview images.
+
+ca: QVL
+c: QVLAYOUT
+d: Displays layout previews.
+
+ca: QVLC
+c: QVLAYOUTCLOSE
+d: Closes layout previews.
+
+ca: R
+c: REDRAW
+d: Refreshes display.
+
+ca: RA
+c: REDRAWALL
+d: Refreshes all viewports.
+
+ca: RC
+c: RENDERCROP
+d: Renders a crop region.
+
+ca: RE
+c: REGEN
+d: Regenerates drawing.
+
+ca: REA
+c: REGENALL
+d: Regenerates all viewports.
+
+ca: REC
+c: RECTANG
+d: Creates a rectangle.
+
+ca: REG
+c: REGION
+d: Creates a region.
+
+ca: REN
+c: RENAME
+d: Renames objects.
+
+ca: REV
+c: REVOLVE
+d: Revolves objects into 3D.
+
+ca: RO
+c: ROTATE
+d: Rotates objects.
+
+ca: RP
+c: RENDERPRESETS
+d: Specifies render presets.
+
+ca: RPR
+c: RPREF
+d: Shows advanced render settings.
+
+ca: RR
+c: RENDER
+d: Renders a photorealistic view.
+
+ca: RW
+c: RENDERWIN
+d: Opens Render window.
+
+ca: S
+c: STRETCH
+d: Stretches crossed objects.
+
+ca: SC
+c: SCALE
+d: Scales objects.
+
+ca: SCR
+c: SCRIPT
+d: Executes a script file.
+
+ca: SEC
+c: SECTION
+d: Creates a section.
+
+ca: SET
+c: SETVAR
+d: Changes system variables.
+
+ca: SHA
+c: SHADEMODE
+d: Starts VSCURRENT.
+
+ca: SL
+c: SLICE
+d: Slices solids.
+
+ca: SN
+c: SNAP
+d: Restricts cursor movement.
+
+ca: SO
+c: SOLID
+d: Creates filled shapes.
+
+ca: SP
+c: SPELL
+d: Spell-checks a drawing.
+
+ca: SPE
+c: SPLINEDIT
+d: Edits splines.
+
+ca: SPL
+c: SPLINE
+d: Creates a smooth curve.
+
+ca: SPLANE
+c: SECTIONPLANE
+d: Creates a section plane.
+
+ca: SPLAY
+c: SEQUENCEPLAY
+d: Plays named views.
+
+ca: SPLIT
+c: MESHSPLIT
+d: Splits mesh faces.
+
+ca: SSM
+c: SHEETSET
+d: Opens Sheet Set Manager.
+
+ca: ST
+c: STYLE
+d: Creates/modifies text styles.
+
+ca: STA
+c: STANDARDS
+d: Manages standards files.
+
+ca: SU
+c: SUBTRACT
+d: Subtracts solids.
+
+ca: T
+c: MTEXT
+d: Creates multiline text.
+
+ca: TA
+c: TEXTALIGN
+d: Aligns text objects.
+
+ca: TB
+c: TABLE
+d: Creates a table.
+
+ca: TEDIT
+c: TEXTEDIT
+d: Edits text or dimensions.
+
+ca: TH
+c: THICKNESS
+d: Sets default 3D thickness.
+
+ca: TI
+c: TILEMODE
+d: Toggles paper/model space capability.
+
+ca: TO
+c: TOOLBAR
+d: Manages toolbars.
+
+ca: TOL
+c: TOLERANCE
+d: Creates tolerance frames.
+
+ca: TOR
+c: TORUS
+d: Creates a 3D torus.
+
+ca: TP
+c: TOOLPALETTES
+d: Opens Tool Palettes.
+
+ca: TR
+c: TRIM
+d: Trims objects.
+
+ca: TS
+c: TABLESTYLE
+d: Creates/modifies table styles.
+
+ca: UC
+c: UCSMAN
+d: Manages UCS.
+
+ca: UN
+c: UNITS
+d: Sets units.
+
+ca: UNHIDE
+c: UNISOLATEOBJECTS
+d: Restores isolated objects.
+
+ca: UNI
+c: UNION
+d: Unites solids.
+
+ca: V
+c: VIEW
+d: Saves/restores views.
+
+ca: VGO
+c: VIEWGO
+d: Restores a named view.
+
+ca: VP
+c: DDVPOINT
+d: Sets the viewing direction.
+
+ca: VPLAY
+c: VIEWPLAY
+d: Plays view animations.
+
+ca: VS
+c: VSCURRENT
+d: Sets visual style.
+
+ca: VSM
+c: VISUALSTYLES
+d: Creates and modifies visual styles.
+
+ca: W
+c: WBLOCK
+d: Writes block to new drawing.
+
+ca: WE
+c: WEDGE
+d: Creates a 3D wedge.
+
+ca: WHEEL
+c: NAVSWHEEL
+d: Displays navigation wheel.
+
+ca: X
+c: EXPLODE
+d: Breaks compound objects.
+
+ca: XA
+c: XATTACH
+d: Attaches external references.
+
+ca: XB
+c: XBIND
+d: Binds xref definitions.
+
+ca: XC
+c: XCLIP
+d: Crops an xref or block.
+
+ca: XL
+c: XLINE
+d: Creates infinite lines.
+
+ca: XR
+c: XREF
+d: Opens External References.
+
+ca: ZEBRA
+c: ANALYSISZEBRA
+d: Analyzes surface continuity.
+
+ca: ZIP
+c: ETRANSMIT
+d: Creates zip or self-extracting packages.
+
+
+Autodesk
+
+How to buy
+
+Support
+
+Privacy|Do not sell or share my personal information|Cookie preferences|Report noncompliance|Terms of use|Legal|© 2025 Autodesk Inc. All rights reserved
